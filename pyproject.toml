@@ -7,7 +7,7 @@ name = "tylereq"
 version = "0.1.0"
 description = "A simple equations module made by Tyler"
 readme = "README.md"
-license = {text = "BSD 2-clause"}
+license = "MIT"
 requires-python = ">=3.8"
 
 urls = {Homepage = "https://github.com/YOUR_GITHUB_USER/tylereq"}
