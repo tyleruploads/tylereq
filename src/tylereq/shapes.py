@@ -84,6 +84,10 @@ def p_rectangle(l: int | float, w: int | float) -> float:
     -------
     float
         The perimeter of the rectangle.
+
+    Formula
+    -------
+    $$P = 2(l+w)$$
     """
     p = 2 * (l + w)
     return p
@@ -101,6 +105,10 @@ def p_square(s: int | float) -> float:
     -------
     float
         The perimeter of the square.
+
+    Formula
+    -------
+    $$P = 4s$$
     """
     p = 4 * s
     return p
@@ -122,6 +130,10 @@ def p_triangle(a: int | float, b: int | float, c: int | float) -> float:
     -------
     float
         The perimeter of the triangle.
+    
+    Formula
+    -------
+    $$P = a + b + c$$
     """
     p = a + b + c
     return p
@@ -144,6 +156,10 @@ def c_circle(r: int | float) -> float:
     -------
     float
         The circumference of the circle.
+
+    Formula
+    -------
+    $$C = 2 \pi r$$
     """
     c = 2 * pi * r
     return c
@@ -165,6 +181,10 @@ def a_rectangle(l: int | float, w: int | float) -> float:
     -------
     float
         The area of the rectangle.
+
+    Formula
+    -------
+    $$A = lw$$
     """
     a = l * w
     return a
@@ -182,6 +202,10 @@ def a_square(s: int | float) -> float:
     -------
     float
         The area of the square.
+
+    Formula
+    -------
+    $$A = s^2$$
     """
     a = s**2
     return a
@@ -201,6 +225,10 @@ def a_triangle(b: int | float, h: int | float) -> float:
     -------
     float
         The area of the triangle.
+
+    Formula
+    -------
+    $$A = \frac{1}{2}bh$$
     """
     a = (1/2) * (b * h)
     return a
@@ -220,6 +248,10 @@ def a_circle(r: int | float) -> float:
     -------
     float
         The area of the circle.
+
+    Formula
+    -------
+    $$A = \pi r^2$$
     """
     a = pi * (r**2)
     return a
@@ -243,6 +275,10 @@ def sa_box(l: int | float, w: int | float, h: int | float) -> float:
     -------
     float
         The surface area of the box.
+
+    Formula
+    -------
+    $$SA = 2lw + 2lh + 2wh$$
     """
     sa = 2*l*w + 2*l*h + 2*w*h
     return sa
@@ -260,6 +296,10 @@ def sa_sphere(r: int | float) -> float:
     -------
     float
         The surface area of the sphere.
+
+    Formula
+    -------
+    $$SA = 4 \pi r^2$$
     """
     sa = 4 * pi * (r**2)
     return sa
@@ -279,6 +319,10 @@ def sa_cylinder(r: int | float, h: int | float) -> float:
     -------
     float
         The surface area of the cylinder.
+
+    Formula
+    -------
+    $$SA = 2 \pi r(r + h)$$
     """
     sa = 2 * pi * r * (r + h)
     return sa
@@ -302,6 +346,10 @@ def v_box(l: int | float, w: int | float, h: int | float) -> float:
     -------
     float
         The volume of the box.
+
+    Formula
+    -------
+    $$V = lwh$$
     """
     v = l * w * h
     return v
@@ -319,6 +367,10 @@ def v_sphere(r: int | float) -> float:
     -------
     float
         The volume of the sphere.
+
+    Formula
+    -------
+    $$V = \frac{4}{3} \pi r^3$$
     """
     v = (4/3) * pi * (r**3)
     return v
@@ -338,6 +390,10 @@ def v_cylinder(r: int | float, h: int | float) -> float:
     -------
     float
         The volume of the cylinder.
+
+    Formula
+    -------
+    $$V = \pi r^2 h$$
     """
     v = pi * (r**2) * h
     return v
