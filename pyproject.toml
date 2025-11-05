@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tylereq"
+version = "0.1.0"
+description = "A simple equations module made by Tyler"
+readme = "README.md"
+license = {text = "BSD 2-clause"}
+requires-python = ">=3.8"
+
+urls = {Homepage = "https://github.com/YOUR_GITHUB_USER/tylereq"}
+
+authors = [
+    {name = "Tyler", email = "tyleruploadspython@gmail.com"}
+]
+
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["tylerreq"]
