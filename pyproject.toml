@@ -20,4 +20,4 @@ dependencies = []
 
 [tool.setuptools]
 package-dir = {"" = "src"}
-packages = ["tylerreq"]
+packages = ["tylereq"]
