@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tylereq"
-version = "0.1.1"
+version = "0.1.2"
 description = "A simple equations module made by Tyler"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.8"
 
-urls = {Homepage = "https://github.com/YOUR_GITHUB_USER/tylereq"}
+urls = {Homepage = "https://github.com/tyleruploadspython/tylereq/"}
 
 authors = [
     {name = "Tyler", email = "tyleruploadspython@gmail.com"}
