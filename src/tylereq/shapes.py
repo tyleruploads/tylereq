@@ -144,7 +144,7 @@ def p_triangle(a: int | float, b: int | float, c: int | float) -> float:
 # Same with isoceles trapezoid
 
 def c_circle(r: int | float) -> float:
-    """
+    r"""
     Calculate the circumference of a circle.
 
     Parameters
@@ -211,7 +211,7 @@ def a_square(s: int | float) -> float:
     return a
     
 def a_triangle(b: int | float, h: int | float) -> float:
-    """
+    r"""
     Calculate the area of a triangle.
 
     Parameters
@@ -236,7 +236,7 @@ def a_triangle(b: int | float, h: int | float) -> float:
 # Do trapezoid and isoceles trapezoid later
 
 def a_circle(r: int | float) -> float:
-    """
+    r"""
     Calculate the area of a circle.
 
     Parameters
@@ -284,7 +284,7 @@ def sa_box(l: int | float, w: int | float, h: int | float) -> float:
     return sa
 
 def sa_sphere(r: int | float) -> float:
-    """
+    r"""
     Calculate the surface area of a sphere.
 
     Parameters
@@ -305,7 +305,7 @@ def sa_sphere(r: int | float) -> float:
     return sa
 
 def sa_cylinder(r: int | float, h: int | float) -> float:
-    """
+    r"""
     Calculate the surface area of a cylinder.
 
     Parameters
@@ -355,7 +355,7 @@ def v_box(l: int | float, w: int | float, h: int | float) -> float:
     return v
 
 def v_sphere(r: int | float) -> float:
-    """
+    r"""
     Calculate the volume of a sphere.
 
     Parameters
@@ -376,7 +376,7 @@ def v_sphere(r: int | float) -> float:
     return v
 
 def v_cylinder(r: int | float, h: int | float) -> float:
-    """
+    r"""
     Calculate the volume of a cylinder.
 
     Parameters
