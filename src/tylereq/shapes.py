@@ -30,7 +30,7 @@ w: width
 h: height
 s: side length
 a, c: side length for side 1 and 3 of triangle
-b: side length 2 of a triangle OR the base of a triangle
+b: side length 2 for p_triangle OR the base (b) for a_triangle
 r: Radius of circle
 
 
@@ -73,6 +73,8 @@ def p_rectangle(l: int | float, w: int | float) -> float:
     """
     Calculate the perimeter of a rectangle.
 
+    Formula: $$P = 2(l+w)$$
+
     Parameters
     ----------
     l : int | float
@@ -84,10 +86,6 @@ def p_rectangle(l: int | float, w: int | float) -> float:
     -------
     float
         The perimeter of the rectangle.
-
-    Formula
-    -------
-    $$P = 2(l+w)$$
     """
     p = 2 * (l + w)
     return p
@@ -95,6 +93,8 @@ def p_rectangle(l: int | float, w: int | float) -> float:
 def p_square(s: int | float) -> float:
     """
     Calculate the perimeter of a square.
+
+    Formula: $$P = 4s$$
 
     Parameters
     ----------
@@ -106,9 +106,7 @@ def p_square(s: int | float) -> float:
     float
         The perimeter of the square.
 
-    Formula
-    -------
-    $$P = 4s$$
+
     """
     p = 4 * s
     return p
@@ -116,6 +114,8 @@ def p_square(s: int | float) -> float:
 def p_triangle(a: int | float, b: int | float, c: int | float) -> float:
     """
     Calculate the perimeter of a triangle.
+
+    Formula: $$P = a + b + c$$
 
     Parameters
     ----------
@@ -131,9 +131,7 @@ def p_triangle(a: int | float, b: int | float, c: int | float) -> float:
     float
         The perimeter of the triangle.
     
-    Formula
-    -------
-    $$P = a + b + c$$
+
     """
     p = a + b + c
     return p
@@ -147,6 +145,8 @@ def c_circle(r: int | float) -> float:
     r"""
     Calculate the circumference of a circle.
 
+    Formula: $$C = 2 \pi r$$
+
     Parameters
     ----------
     r : int | float
@@ -157,9 +157,7 @@ def c_circle(r: int | float) -> float:
     float
         The circumference of the circle.
 
-    Formula
-    -------
-    $$C = 2 \pi r$$
+
     """
     c = 2 * pi * r
     return c
@@ -169,6 +167,8 @@ def c_circle(r: int | float) -> float:
 def a_rectangle(l: int | float, w: int | float) -> float:
     """
     Calculate the area of a rectangle.
+
+    Formula: $$A = lw$$
 
     Parameters
     ----------
@@ -181,10 +181,6 @@ def a_rectangle(l: int | float, w: int | float) -> float:
     -------
     float
         The area of the rectangle.
-
-    Formula
-    -------
-    $$A = lw$$
     """
     a = l * w
     return a
@@ -192,6 +188,8 @@ def a_rectangle(l: int | float, w: int | float) -> float:
 def a_square(s: int | float) -> float:
     """
     Calculate the area of a square.
+
+    Formula: $$A = s^2$$
 
     Parameters
     ----------
@@ -202,10 +200,6 @@ def a_square(s: int | float) -> float:
     -------
     float
         The area of the square.
-
-    Formula
-    -------
-    $$A = s^2$$
     """
     a = s**2
     return a
@@ -213,6 +207,8 @@ def a_square(s: int | float) -> float:
 def a_triangle(b: int | float, h: int | float) -> float:
     r"""
     Calculate the area of a triangle.
+
+    Formula: $$A = \frac{1}{2}bh$$
 
     Parameters
     ----------
@@ -225,10 +221,6 @@ def a_triangle(b: int | float, h: int | float) -> float:
     -------
     float
         The area of the triangle.
-
-    Formula
-    -------
-    $$A = \frac{1}{2}bh$$
     """
     a = (1/2) * (b * h)
     return a
@@ -239,6 +231,8 @@ def a_circle(r: int | float) -> float:
     r"""
     Calculate the area of a circle.
 
+    Formula: $$A = \pi r^2$$
+
     Parameters
     ----------
     r : int | float
@@ -248,10 +242,6 @@ def a_circle(r: int | float) -> float:
     -------
     float
         The area of the circle.
-
-    Formula
-    -------
-    $$A = \pi r^2$$
     """
     a = pi * (r**2)
     return a
@@ -261,6 +251,8 @@ def a_circle(r: int | float) -> float:
 def sa_box(l: int | float, w: int | float, h: int | float) -> float:
     """
     Calculate the surface area of a box (rectangular prism).
+
+    Formula: $$SA = 2lw + 2lh + 2wh$$
 
     Parameters
     ----------
@@ -275,10 +267,6 @@ def sa_box(l: int | float, w: int | float, h: int | float) -> float:
     -------
     float
         The surface area of the box.
-
-    Formula
-    -------
-    $$SA = 2lw + 2lh + 2wh$$
     """
     sa = 2*l*w + 2*l*h + 2*w*h
     return sa
@@ -286,6 +274,8 @@ def sa_box(l: int | float, w: int | float, h: int | float) -> float:
 def sa_sphere(r: int | float) -> float:
     r"""
     Calculate the surface area of a sphere.
+
+    Formula: $$SA = 4 \pi r^2$$
 
     Parameters
     ----------
@@ -296,10 +286,6 @@ def sa_sphere(r: int | float) -> float:
     -------
     float
         The surface area of the sphere.
-
-    Formula
-    -------
-    $$SA = 4 \pi r^2$$
     """
     sa = 4 * pi * (r**2)
     return sa
@@ -307,6 +293,8 @@ def sa_sphere(r: int | float) -> float:
 def sa_cylinder(r: int | float, h: int | float) -> float:
     r"""
     Calculate the surface area of a cylinder.
+
+    Formula: $$SA = 2 \pi r(r + h)$$
 
     Parameters
     ----------
@@ -319,10 +307,6 @@ def sa_cylinder(r: int | float, h: int | float) -> float:
     -------
     float
         The surface area of the cylinder.
-
-    Formula
-    -------
-    $$SA = 2 \pi r(r + h)$$
     """
     sa = 2 * pi * r * (r + h)
     return sa
@@ -332,6 +316,8 @@ def sa_cylinder(r: int | float, h: int | float) -> float:
 def v_box(l: int | float, w: int | float, h: int | float) -> float:
     """
     Calculate the volume of a box (rectangular prism).
+
+    Formula: $$V = lwh$$
 
     Parameters
     ----------
@@ -346,10 +332,6 @@ def v_box(l: int | float, w: int | float, h: int | float) -> float:
     -------
     float
         The volume of the box.
-
-    Formula
-    -------
-    $$V = lwh$$
     """
     v = l * w * h
     return v
@@ -357,6 +339,8 @@ def v_box(l: int | float, w: int | float, h: int | float) -> float:
 def v_sphere(r: int | float) -> float:
     r"""
     Calculate the volume of a sphere.
+
+    Formula: $$V = \frac{4}{3} \pi r^3$$
 
     Parameters
     ----------
@@ -367,10 +351,6 @@ def v_sphere(r: int | float) -> float:
     -------
     float
         The volume of the sphere.
-
-    Formula
-    -------
-    $$V = \frac{4}{3} \pi r^3$$
     """
     v = (4/3) * pi * (r**3)
     return v
@@ -378,6 +358,8 @@ def v_sphere(r: int | float) -> float:
 def v_cylinder(r: int | float, h: int | float) -> float:
     r"""
     Calculate the volume of a cylinder.
+
+    Formula: $$V = \pi r^2 h$$
 
     Parameters
     ----------
@@ -390,10 +372,6 @@ def v_cylinder(r: int | float, h: int | float) -> float:
     -------
     float
         The volume of the cylinder.
-
-    Formula
-    -------
-    $$V = \pi r^2 h$$
     """
     v = pi * (r**2) * h
     return v
