@@ -23,7 +23,6 @@ Examples
 
 from importlib.metadata import version as _get_version
 
-__version__ = "0.1.0"
 __author__ = "Tyler"
 __license__ = "MIT"
 __docformat__ = "numpy"
@@ -32,18 +31,10 @@ try:
     __version__ = _get_version("tylereq")
 except Exception:
     __version__ = "0.1.0"
+print(__version__)
 
-from .shapes import (
-    p_rectangle, p_square, p_triangle, c_circle,
-    a_rectangle, a_square, a_triangle, a_circle,
-    sa_box, sa_sphere, sa_cylinder,
-    v_box, v_sphere, v_cylinder,
-)
+__all__ = ["shapes"]
 
-__all__ = [
-    # from shapes.py
-    "p_rectangle", "p_square", "p_triangle", "c_circle",
-    "a_rectangle", "a_square", "a_triangle", "a_circle",
-    "sa_box", "sa_sphere", "sa_cylinder",
-    "v_box", "v_sphere", "v_cylinder",
-]
+# Quick list of all the functions in shapes
+# "p_rectangle", "p_square", "p_triangle", "c_circle", "a_rectangle", "a_square", 
+# "a_triangle", "a_circle", "sa_box",  "sa_sphere", "sa_cylinder", "v_box", "v_sphere", "v_cylinder"
