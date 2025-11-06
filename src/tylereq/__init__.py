@@ -26,12 +26,7 @@ from importlib.metadata import version as _get_version
 __author__ = "Tyler"
 __license__ = "MIT"
 __docformat__ = "numpy"
-
-try:
-    __version__ = _get_version("tylereq")
-except Exception:
-    __version__ = "0.1.0"
-print(__version__)
+__version__ = "0.1.1"
 
 __all__ = ["shapes"]
 
