@@ -38,28 +38,28 @@ r: Radius of circle
 Functions
 ---------
 Perimeter:
-    p_rectangle(l, w), p_square(s), p_triangle(a, b, c), c_circle(r)
+    tylereq.shapes.p_rectangle(l, w), tylereq.shapes.p_square(s), tylereq.shapes.p_triangle(a, b, c), tylereq.shapes.c_circle(r)
 
 Area:
-    a_rectangle(l, w), a_square(s), a_triangle(b, h), a_circle(r)
+    tylereq.shapes.a_rectangle(l, w), tylereq.shapes.a_square(s), tylereq.shapes.a_triangle(b, h), tylereq.shapes.a_circle(r)
 
 Surface Area:
-    sa_box(l, w, h), sa_sphere(r), sa_cylinder(r, h)
+    tylereq.shapes.sa_box(l, w, h), tylereq.shapes.sa_sphere(r), tylereq.shapes.sa_cylinder(r, h)
 
 Volume:
-    v_box(l, w, h), v_sphere(r), v_cylinder(r, h)
+    tylereq.shapes.v_box(l, w, h), tylereq.shapes.v_sphere(r), tylereq.shapes.v_cylinder(r, h)
 
 Examples
 --------
->>> a_rectangle(5, 3)
+>>> tylereq.shapes.a_rectangle(5, 3)
 15.0
->>> v_sphere(2)
+>>> tylereq.shapes.v_sphere(2)
 33.510321638291124
 """
 
 from math import pi
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 __author__ = "Tyler Nordby"
 __license__ = "MIT"
 __docformat__ = "numpy"

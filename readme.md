@@ -14,38 +14,38 @@ pip install tylereq
 from tylereq import shapes
 
 # Calculate area of a rectangle
-area = shapes.a_rectangle(5, 3)  # Returns 15.0
+area = tylereq.shapes.a_rectangle(5, 3)  # Returns 15.0
 
 # Calculate volume of a sphere
-volume = shapes.v_sphere(2)  # Returns 33.510321638291124
+volume = tylereq.shapes.v_sphere(2)  # Returns 33.510321638291124
 
 # Calculate perimeter of a square
-perimeter = shapes.p_square(10)  # Returns 40
+perimeter = tylereq.shapes.p_square(10)  # Returns 40
 ```
 
 ## Available Functions
 
 ### Perimeter/Circumference
-- `p_rectangle(l, w)`: Rectangle perimeter
-- `p_square(s)`: Square perimeter
-- `p_triangle(a, b, c)`: Triangle perimeter
-- `c_circle(r)`: Circle circumference
+- `tylereq.shapes.p_rectangle(l, w)`: Rectangle perimeter
+- `tylereq.shapes.p_square(s)`: Square perimeter
+- `tylereq.shapes.p_triangle(a, b, c)`: Triangle perimeter
+- `tylereq.shapes.c_circle(r)`: Circle circumference
 
 ### Area
-- `a_rectangle(l, w)`: Rectangle area
-- `a_square(s)`: Square area
-- `a_triangle(b, h)`: Triangle area
-- `a_circle(r)`: Circle area
+- `tylereq.shapes.a_rectangle(l, w)`: Rectangle area
+- `tylereq.shapes.a_square(s)`: Square area
+- `tylereq.shapes.a_triangle(b, h)`: Triangle area
+- `tylereq.shapes.a_circle(r)`: Circle area
 
 ### Surface Area
-- `sa_box(l, w, h)`: Box surface area
-- `sa_sphere(r)`: Sphere surface area
-- `sa_cylinder(r, h)`: Cylinder surface area
+- `tylereq.shapes.sa_box(l, w, h)`: Box surface area
+- `tylereq.shapes.sa_sphere(r)`: Sphere surface area
+- `tylereq.shapes.sa_cylinder(r, h)`: Cylinder surface area
 
 ### Volume
-- `v_box(l, w, h)`: Box volume
-- `v_sphere(r)`: Sphere volume
-- `v_cylinder(r, h)`: Cylinder volume
+- `tylereq.shapes.v_box(l, w, h)`: Box volume
+- `tylereq.shapes.v_sphere(r)`: Sphere volume
+- `tylereq.shapes.v_cylinder(r, h)`: Cylinder volume
 
 ## Documentation
 
