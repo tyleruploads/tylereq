@@ -21,7 +21,7 @@ Prefixes:
 - v_ : volume
 
 Examples:
-    p_rectangle, p_triangle, a_rectangle, sa_box, v_box
+    p_rectangle(l, w), p_triangle(a, b, c), a_rectangle(l, w), sa_box(l, w, h), v_box(l, w, h)
 
 Variables
 ------------------
@@ -29,8 +29,8 @@ l: length
 w: width
 h: height
 s: side length
-a, b, c: side length for side 1, 2, and 3 or triangle
-b: When used in a function with the suffix _triangle, represents the base of the triangle
+a, c: side length for side 1 and 3 of triangle
+b: side length 2 of a triangle OR the base of a triangle
 r: Radius of circle
 
 
@@ -38,16 +38,16 @@ r: Radius of circle
 Functions
 ---------
 Perimeter:
-    p_rectangle, p_square, p_triangle, c_circle
+    p_rectangle(l, w), p_square(s), p_triangle(a, b, c), c_circle(r)
 
 Area:
-    a_rectangle, a_square, a_triangle, a_circle
+    a_rectangle(l, w), a_square(s), a_triangle(b, h), a_circle(r)
 
 Surface Area:
-    sa_box, sa_sphere, sa_cylinder
+    sa_box(l, w, h), sa_sphere(r), sa_cylinder(r, h)
 
 Volume:
-    v_box, v_sphere, v_cylinder
+    v_box(l, w, h), v_sphere(r), v_cylinder(r, h)
 
 Examples
 --------
