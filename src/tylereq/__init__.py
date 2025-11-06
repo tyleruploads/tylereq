@@ -26,7 +26,7 @@ from importlib.metadata import version as _get_version
 __author__ = "Tyler"
 __license__ = "MIT"
 __docformat__ = "numpy"
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 __all__ = ["shapes"]
 

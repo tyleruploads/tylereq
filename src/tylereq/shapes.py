@@ -59,7 +59,7 @@ Examples
 
 from math import pi
 
-__version__ = "1.0.0"
+__version__ = "0.1.2"
 __author__ = "Tyler Nordby"
 __license__ = "MIT"
 __docformat__ = "numpy"
