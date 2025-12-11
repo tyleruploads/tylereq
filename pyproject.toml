@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "tylereq"
 version = "0.1.3"
 description = "A simple equations module made by Tyler"
-readme = "README.md"
+readme = "readme.md"
 license = "MIT"
 requires-python = ">=3.8"
 
