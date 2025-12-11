@@ -24,7 +24,7 @@ Examples
 from importlib.metadata import version as _get_version
 from . import shapes
 
-__author__ = "Tyler"
+__author__ = "TylerUploads"
 __license__ = "MIT"
 __docformat__ = "numpy"
 __version__ = "0.1.3"

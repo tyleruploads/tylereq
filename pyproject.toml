@@ -10,10 +10,10 @@ readme = "README.md"
 license = "MIT"
 requires-python = ">=3.8"
 
-urls = {Homepage = "https://github.com/tyleruploadspython/tylereq/"}
+urls = {Homepage = "https://github.com/tyleruploads/tylereq/"}
 
 authors = [
-    {name = "Tyler", email = "tyleruploadspython@gmail.com"}
+    {name = "tyleruploads", email = "tyleruploads@yahoo.com"}
 ]
 
 dependencies = []

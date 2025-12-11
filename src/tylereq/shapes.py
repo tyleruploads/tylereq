@@ -60,7 +60,7 @@ Examples
 from math import pi
 
 __version__ = "0.1.3"
-__author__ = "Tyler Nordby"
+__author__ = "TylerUploads"
 __license__ = "MIT"
 __docformat__ = "numpy"
 
