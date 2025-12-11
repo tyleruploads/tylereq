@@ -27,7 +27,7 @@ from . import shapes
 __author__ = "TylerUploads"
 __license__ = "MIT"
 __docformat__ = "numpy"
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 
 __all__ = ["shapes"]
 
